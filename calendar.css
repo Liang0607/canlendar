@@ -1,0 +1,21 @@
+.vito-calendar-column-header {
+	line-height: 18px;
+    width: 33px;
+    padding: 6px 0;
+    text-align: center;
+}
+.vito-calendar-column-header .vito-calendar-column-header-inner {
+    display: block;
+    font-weight: 400;
+}
+
+
+.vito-calendar-cell {
+	text-align: center;
+	color: rgba(0,0,0,.65);
+	cursor: pointer;
+}
+.vito-calendar-cell.last,
+.vito-calendar-cell.next {
+	color: rgba(0,0,0,.25);
+}
